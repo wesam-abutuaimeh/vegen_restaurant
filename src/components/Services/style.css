@@ -1,0 +1,44 @@
+.services {
+  background-color: #101418b2;
+}
+.services .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 56px 0;
+}
+.service {
+  display: flex;
+  align-items: center;
+}
+.services .container img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.services .container .details {
+  color: white;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.services .container .details p {
+  color: #ffce6d;
+  font-size: 48px;
+  margin-bottom: -5px;
+}
+
+.services .container .details span {
+  display: block;
+  color: #fffffc;
+  font-size: 18px;
+}
+@media (max-width: 991px) {
+  .services .container {
+    flex-direction: column;
+  }
+}

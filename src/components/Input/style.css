@@ -1,0 +1,17 @@
+input {
+  width: 407px;
+  height: 55px;
+  background-color: transparent;
+  color: #fffffc;
+  border: 1px solid #ffc;
+  outline: none;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 155.3%;
+  letter-spacing: 1.56px;
+  text-transform: capitalize;
+  margin-left: 89px;
+  margin-right: 30px;
+  padding: 17px 71px 18px 34px;
+}

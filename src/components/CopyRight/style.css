@@ -1,0 +1,16 @@
+.copyright {
+  background-color: #101418b2;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.copyright__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}

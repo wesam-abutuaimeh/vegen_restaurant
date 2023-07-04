@@ -1,0 +1,17 @@
+.special {
+  background: rgba(16, 20, 24, 0.7);
+  padding-bottom: 96px;
+  padding-top: 26px;
+}
+.features__container {
+  display: flex;
+  gap: 102px;
+}
+
+@media (max-width: 991px) {
+  .features__container {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

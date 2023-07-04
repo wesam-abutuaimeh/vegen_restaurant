@@ -1,0 +1,77 @@
+.testimonials__and__reviews {
+  padding: 100px 0;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.reviews .testimonial__card {
+  background-color: #101418b2;
+  width: 732px;
+  height: 385px;
+  padding: 63px 68px;
+}
+.reviews .testimonial__card .card__header {
+  display: flex;
+  align-items: center;
+}
+.reviews .testimonial__card .our__food__lover__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.reviews .testimonial__card .name {
+  color: #fffffc;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 155.3%;
+  letter-spacing: 2.34px;
+  text-transform: capitalize;
+}
+.reviews .testimonial__card .testimonial {
+  color: #fffffc;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  text-transform: capitalize;
+  margin-top: 38px;
+}
+
+@media (max-width: 991px) {
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .reviews .testimonial__card:first-child {
+    transform: translate(0) !important;
+    -webkit-transform: translate(0) !important;
+    -moz-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    -o-transform: translate(0) !important;
+  }
+  .reviews .testimonial__card:last-child {
+    transform: translate(0) !important;
+    -webkit-transform: translate(0) !important;
+    -moz-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    -o-transform: translate(0) !important;
+  }
+  .reviews .testimonial__card {
+    height: auto;
+    text-align: center;
+  }
+  .reviews .testimonial__card .card__header {
+    flex-direction: column;
+  }
+  .reviews .testimonial__card .our__food__lover__info {
+    margin: 10px auto;
+    text-align: center;
+  }
+}

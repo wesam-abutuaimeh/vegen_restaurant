@@ -1,0 +1,22 @@
+.book__table__section {
+  background-color: #101418b2;
+}
+.book__table__section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.book__table__section .container button {
+  width: 173px;
+}
+.book__table__info {
+  padding-top: 39px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 991px) {
+  .book__table__section .container img {
+    display: none;
+  }
+}

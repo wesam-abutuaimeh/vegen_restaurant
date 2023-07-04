@@ -1,0 +1,24 @@
+.section__header__container {
+  width: fit-content;
+}
+.section__header,
+.section__sub__header {
+  line-height: 117.3%;
+  font-weight: 700;
+}
+.section__header {
+  color: #ffce6d;
+  font-size: 36px;
+  font-family: Dancing Script;
+  letter-spacing: 3.6px;
+}
+.section__sub__header {
+  color: #fffffc;
+  font-size: 30px;
+  font-family: Roboto;
+  text-transform: capitalize;
+  width: 694px;
+  height: 64px;
+  margin-top: 15px;
+  margin-bottom: 66px;
+}

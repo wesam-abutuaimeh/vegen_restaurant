@@ -1,0 +1,36 @@
+.search__bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  margin: 0;
+}
+.search__bar .container {
+  background-color: #101419;
+  justify-content: space-between;
+}
+form {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.search__bar .container .submit__btn,
+.search__bar .container .cancle__btn {
+  width: 70px;
+  height: 55px;
+  border: 1px dashed #ffc;
+  background-color: #101419b2;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cancle__btn {
+  position: absolute;
+  right: 24px;
+  top: 0;
+}

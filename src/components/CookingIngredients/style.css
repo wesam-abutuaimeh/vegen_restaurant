@@ -1,0 +1,40 @@
+.cooking__ingredients__section {
+  padding-top: 144px;
+  padding-bottom: 93px;
+}
+.cooking__ingredients__section .container {
+  display: flex;
+  align-items: center;
+}
+.cooking__ingredients__section .container .left__side {
+  flex: 1;
+}
+.cooking__ingredients__section .container .description {
+  color: #fffffc;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+  margin-bottom: 56px;
+  max-width: 380px;
+}
+.cooking__ingredients__section button {
+  width: 177px;
+}
+.cooking__ingredients__section .container .right__side {
+  width: 441px;
+  height: 390px;
+}
+
+@media (max-width: 991px) {
+  .cooking__ingredients__section {
+    text-align: center;
+  }
+  .cooking__ingredients__section .container .description {
+    max-width: 100%;
+  }
+  .cooking__ingredients__section .container .right__side {
+    display: none;
+  }
+}
