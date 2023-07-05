@@ -9,12 +9,12 @@ class BookTable extends Component {
     render() {
         return <div className="book__table__section">
             <Container>
-                <Image src='/imgs/shape__cooking.png' alt="image__shape" title="image__shape" />
+                <Image src='/assets/shape__cooking.png' alt="image__shape" title="image__shape" />
                 <div className="book__table__info">
                     <SectionHeader header="Come join us for a lunch this weekend and enjoy" subHeader="FLAT 10% OFF" className='center' />
                     <CTA title="Book Table" className="center" />
                 </div>
-                <Image src='/imgs/shape__cooking.png' alt="image__shape" title="image__shape" />
+                <Image src='/assets/shape__cooking.png' alt="image__shape" title="image__shape" />
             </Container>
         </div>;
     }
